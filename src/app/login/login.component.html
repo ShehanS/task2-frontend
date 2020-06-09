@@ -1,0 +1,28 @@
+
+<div align="center" style="margin-top: 250px;">
+
+    <mat-card class=card>
+        <mat-card-header>
+            <div mat-card-avatar class="header-image"></div>
+            <mat-card-title>Task 2</mat-card-title>
+            <mat-card-subtitle>Login</mat-card-subtitle>
+          </mat-card-header>
+        <mat-card-content>
+Message {{loginMessage}}
+<br/>
+
+          Getting JWT and Save
+          <button mat-raised-button color="accent" (click)="geetingJWT()">Getting JWT and Save</button>
+<br/>
+<br/>
+          JWT Validation and login
+          <button mat-raised-button color="accent" (click)="login()">JWT Login</button>
+          <br/>
+          <br/>
+          Cleare JWT in local storage
+          <button mat-raised-button color="accent" (click)="clear()">Clear Memory</button>
+</mat-card-content>
+            </mat-card>
+
+
+ </div>
